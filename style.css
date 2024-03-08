@@ -3,14 +3,14 @@ body {
 
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Cooper Hewitt', sans-serif;
   font-optical-sizing: auto;
   font-weight: lighter;
   font-style: normal;
   src: url('https://fonts.cdnfonts.com/css/cooper-hewitt');
 
-}
+} */
 
 @font-face {
   font-family: "Monument Extended Regular";
