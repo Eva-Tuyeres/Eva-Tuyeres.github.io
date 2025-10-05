@@ -12,7 +12,7 @@ body {
 
 } */
 
-@font-face {
+/*@font-face {
   font-family: "Monument Extended Regular";
   src: url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.eot");
   src: url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.eot?#iefix")format("embedded-opentype"),
@@ -21,8 +21,16 @@ body {
     url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.svg#Monument Extended Regular")format("svg");
 
-}
+}*/
 
+@font-face {
+    font-family: 'Compagnon Roman';
+    src: url('Compagnon-Roman.woff2') format('woff2'),
+        url('Compagnon-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 body {
   font-family: 'Cooper Hewitt', sans-serif;
