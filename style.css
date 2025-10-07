@@ -108,9 +108,9 @@ h3{
 }
 
 .insta a{
+  font-family: "Aileron Ultralight"; sans-serif;
   text-decoration: none;
-  font-family:'Cooper Hewitt', sans-serif; 
-  color: rgb(40, 53, 131);
+  color: rgb(49, 39, 131);
   
 }
 
@@ -132,7 +132,7 @@ h3{
 .cv {
   text-decoration: none;
   font-family:'Cooper Hewitt', sans-serif; 
-  color: rgb(40, 53, 131);
+  color: rgb(49, 39, 131);
 }
 .cv a:hover {
   opacity: 50%;
