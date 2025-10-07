@@ -8,16 +8,18 @@ body {
     font-family: "Compagnon Roman";
      src: url("typo/Compagnon-Roman.otf")format("opentype");
     
-   
+@font-face {
+  font-family: "Aileron";
+   src: url("typo/aileron.medium.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
-  @font-family: "typo/aileron.regular.otf";
-  src: url("typo/Compagnon-Roman.otf")format("opentype");
+  font-family: "aileron regular";
   font-size: 20px;
   font-optical-sizing: auto;
   font-weight: auto;
-  font-weight: 400;
   font-style: normal;
   color: rgb(49, 39, 131);
 }
