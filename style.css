@@ -12,7 +12,8 @@ body {
 }
 
 body {
-  font-family: "typo/aileron.regular.otf",sans-serif;
+  @font-family: "typo/aileron.regular.otf";
+  src: url("typo/Compagnon-Roman.otf")format("opentype");
   font-size: 20px;
   font-optical-sizing: auto;
   font-weight: auto;
