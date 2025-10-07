@@ -15,7 +15,7 @@ body {
 body {
   font-family: 'Compagnon-Roman',sans-serif;
   font-optical-sizing: auto;
-  font-weight: lighter;
+  font-weight: 150;
   font-style: normal;
   color: rgb(40, 53, 131);
 }
