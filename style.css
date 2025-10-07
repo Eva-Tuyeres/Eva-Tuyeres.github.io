@@ -8,9 +8,8 @@ body {
     font-family: "Compagnon Roman";
      src: url("typo/Compagnon-Roman.otf") format ("opentype");
     font-size: 30 px;
-    font-weight: auto;
-    font-style: normal;
-    font-display: swap;
+    font-weight: 200;
+   
 }
 
 body {
