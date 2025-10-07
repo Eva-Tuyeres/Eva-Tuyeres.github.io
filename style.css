@@ -10,7 +10,7 @@ body {
     
 @font-face {
   font-family: "Aileron";
-   src: url("typo/aileron.medium.otf") format("opentype");
+   src: url("typo/aileron.regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
