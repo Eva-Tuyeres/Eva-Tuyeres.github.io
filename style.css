@@ -5,7 +5,7 @@ body {
 
 
 @font-face {
-    font-family: "Compagnon Roman";
+    font-family: "Compagnon Roman", serif;
      src: url("typo/Compagnon-Roman.otf")format("opentype");
     
 }
@@ -37,7 +37,7 @@ img {
 
 h1 {
 
-  font-family: "Compagnon Roman", sans-serif;
+  font-family: "Compagnon Roman", serif;
   font-style: normal;
   text-decoration: none;
   font-size: 25px;
@@ -225,7 +225,7 @@ h3{
 }
 
 .h2 {
-  font-family: "Aileron Regular",sans-serif;
+ font-family: "Compagnon Roman", serif;
   font-size: 10px;
   color: rgb(81, 52, 245);
 
