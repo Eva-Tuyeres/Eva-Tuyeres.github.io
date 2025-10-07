@@ -5,14 +5,14 @@ body {
 
 
 @font-face {
-    font-family: "Compagnon Roman";
+    font-family: "Compagnon-Roman";
      src: url("typo/Compagnon-Roman.otf") format ("opentype")
-    font-weight: 200;
+    
    
 }
 
 body {
-  font-family: 'Compagnon Roman',sans-serif;
+  font-family: 'Compagnon-Roman',sans-serif;
   font-size: 50px;
   font-optical-sizing: auto;
   font-weight: auto;
@@ -29,12 +29,11 @@ img {
 
 h1 {
 
-  font-family: "Compagnon Roman", sans-serif;
-  font-optical-sizing: auto;
+  font-family: "Compagnon-Roman", sans-serif; 
   font-weight: 400;
   font-style: normal;
   color: black;
-  font-size: 15px;
+  font-size: 50px;
   
 }
 
