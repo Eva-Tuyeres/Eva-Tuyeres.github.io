@@ -6,15 +6,14 @@ body {
 
 @font-face {
     font-family: "Compagnon Roman";
-     src: url("typo/Compagnon-Roman.otf") format ("opentype");
-    font-size: 30 px;
+     src: url("typo/Compagnon-Roman.otf") format ("opentype")
     font-weight: 200;
    
 }
 
 body {
-  font-family: 'Compagnon-Roman',sans-serif;
-  font-size: 50 px;
+  font-family: 'Compagnon Roman',sans-serif;
+  font-size: 50px;
   font-optical-sizing: auto;
   font-weight: auto;
   font-style: normal;
