@@ -24,9 +24,8 @@ body {
 }*/
 
 @font-face {
-    font-family: 'Compagnon Roman';
-    src: url('Compagnon-Roman.woff2') format('woff2'),
-        url('Compagnon-Roman.woff') format('woff');
+    font-family: 'Compagnon-Roman';
+     src: url(typo/Compagnon-Roman.otf);
     font-weight: normal;
     font-style: normal;
     font-display: swap;
