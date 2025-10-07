@@ -6,7 +6,7 @@ body {
 
 @font-face {
     font-family: "Compagnon-Roman";
-     src: url(typo/Compagnon-Roman.otf) format ("otf");
+     src: url("typo/Compagnon-Roman.otf") format ("opentype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
