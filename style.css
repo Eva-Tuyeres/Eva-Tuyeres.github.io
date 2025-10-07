@@ -107,9 +107,10 @@ h3{
 
 }
 
-insta a{
+.insta a{
   font-family: "Aileron Ultralight"; sans-serif;
   text-decoration: none;
+  transition: opacity 0.2s ease;
   color: rgb(49, 39, 131);
   
 }
