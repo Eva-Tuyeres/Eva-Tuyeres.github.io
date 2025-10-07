@@ -11,12 +11,12 @@ body {
 
 @font-face {
     font-family: "Aileron regular";
-     src: url("typo/Compagnon-Roman.otf")format("opentype");
+     src: url("typo/aileron.regular.otf")format("opentype");
   
 }
 
 body {
-  font-family: "Compagnon Roman",sans-serif;
+  font-family: "Aileron Regular",sans-serif;
   font-size: 20px;
   font-optical-sizing: auto;
   font-weight: auto;
