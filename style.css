@@ -234,6 +234,7 @@ h3{
 
 h2 {
  font-family: "Compagnon Roman", serif;
+  font-weight: 400;
   font-size: 40px;
   color: rgb(81, 52, 245);
 
@@ -253,6 +254,7 @@ h2 {
 }
 
 .footer2{
+  font-family: 'Aileron Ultralight', sans-serif;
   font-size:11px;
   position: fixed;
   bottom: 0;
