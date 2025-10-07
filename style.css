@@ -4,21 +4,18 @@ body {
 }
 
 
-
 @font-face {
     font-family: "Compagnon Roman";
      src: url("typo/Compagnon-Roman.otf")format("opentype");
     
-@font-face {
-  font-family: "Aileron";
-   src: url("typo/aileron.regular.otf") format("opentype");
-    
+   
 }
 
 body {
-  font-family: "aileron regular";
+  font-family: "Compagnon Roman",sans-serif;
   font-size: 20px;
   font-optical-sizing: auto;
+  font-weight: auto;
   font-weight: 400;
   font-style: normal;
   color: rgb(49, 39, 131);
@@ -223,9 +220,8 @@ h3{
 
 .h2 {
   font-family: 'Comagnon Roman', sans-serif;
-  color: rgb(81, 52, 245);
   font-size: 10px;
-  
+  color: rgb(81, 52, 245);
 
 }
 
@@ -909,6 +905,8 @@ h3{
     grid-row: 12;
 
   }
+
+
 
 
 }
