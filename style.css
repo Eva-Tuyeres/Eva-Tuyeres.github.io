@@ -3,29 +3,10 @@ body {
 
 }
 
-/* @font-face {
-  font-family: 'Cooper Hewitt', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: lighter;
-  font-style: normal;
-  src: url('https://fonts.cdnfonts.com/css/cooper-hewitt');
-
-} */
-
-/*@font-face {
-  font-family: "Monument Extended Regular";
-  src: url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.eot");
-  src: url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/99501fdab737541e9315ceaf9229370f.svg#Monument Extended Regular")format("svg");
-
-}*/
 
 @font-face {
-    font-family: 'Compagnon-Roman';
-     src: url(typo/Compagnon-Roman.otf);
+    font-family: "Compagnon-Roman";
+     src: url(typo/Compagnon-Roman.otf) format ("otf");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -48,7 +29,7 @@ img {
 
 h1 {
 
-  font-family: "Monument Extended Regular", sans-serif;
+  font-family: "Compagnon-Roman", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
