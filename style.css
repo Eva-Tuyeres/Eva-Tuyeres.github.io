@@ -13,7 +13,7 @@ body {
 }
 
 body {
-  font-family: 'Compagnon-Roman', sans-serif;
+  font-family: 'Compagnon-Roman',serif;
   font-optical-sizing: auto;
   font-weight: lighter;
   font-style: normal;
@@ -29,7 +29,7 @@ img {
 
 h1 {
 
-  font-family: "Compagnon-Roman", sans-serif;
+  font-family: "Compagnon-Roman", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
