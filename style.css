@@ -6,7 +6,7 @@ body {
 
 @font-face {
     font-family: "Compagnon Roman";
-     src: url("typo/Compagnon-Roman.otf") format ("opentype")
+     src: url("typo/Compagnon-Roman.otf")format("opentype");
     
    
 }
@@ -16,6 +16,7 @@ body {
   font-size: 20px;
   font-optical-sizing: auto;
   font-weight: auto;
+  font-weight: 400;
   font-style: normal;
   color: rgb(40, 53, 131);
 }
@@ -65,6 +66,7 @@ h3{
   text-decoration: none;
   font-size: 25px;
   margin: 10px;
+  font-weight: 400;
   margin-top: 5px; 
 }
 
