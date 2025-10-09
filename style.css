@@ -587,7 +587,9 @@ h2 {
 
   .log9 {
     grid-column: 4;
-    grid-row: 4;
+   /* grid-row: 4;*/
+    grid-row-start: 2;
+    grid-row-end: 4;
 
   }
 
