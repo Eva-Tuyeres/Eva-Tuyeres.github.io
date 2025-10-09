@@ -735,6 +735,18 @@ h2 {
 
   }
 
+  .choco5 {
+    grid-column: 2;
+    grid-row: 3;
+
+  }
+
+  .choco6 {
+    grid-column: 3;
+    grid-row: 3;
+
+  }
+
   .chocotxt {
     grid-column: 2;
     grid-row: 1;
