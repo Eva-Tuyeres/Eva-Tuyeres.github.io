@@ -729,6 +729,12 @@ h2 {
 
   }
 
+  .choco4 {
+    grid-column: 1;
+    grid-row: 3;
+
+  }
+
   .chocotxt {
     grid-column: 2;
     grid-row: 1;
