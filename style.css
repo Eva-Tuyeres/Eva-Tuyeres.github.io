@@ -541,7 +541,24 @@ h2 {
 
   }
 
-  /* .log2{
+}
+
+  .log10 {
+    grid-column: 5;
+    grid-row: 4;
+   
+
+  }
+
+}
+
+  .log11 {
+    grid-column: 5;
+    grid-row: 4;
+   
+
+  }
+/* .log2{
         grid-column: 4;
         grid-row: 2;
        
