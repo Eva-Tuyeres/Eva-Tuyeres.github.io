@@ -568,15 +568,15 @@ h2 {
       } */
 
   .log3 {
-        grid-column: 4;
-        grid-row: 2;
+     grid-column: 2;
+     grid-row: 2;
+     margin-left:50px;
         
       } 
 
   .log4 {
-    grid-column: 2;
-    grid-row: 2;
-    margin-left:50px;
+    grid-column: 4;
+    grid-row: 2;  
   }
 
   .log5 {
