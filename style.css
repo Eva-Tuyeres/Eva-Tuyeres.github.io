@@ -747,6 +747,12 @@ h2 {
 
   }
 
+  .choco7 {
+    grid-column: 1;
+    grid-row: 2;
+
+  }
+
   .chocotxt {
     grid-column: 2;
     grid-row: 1;
