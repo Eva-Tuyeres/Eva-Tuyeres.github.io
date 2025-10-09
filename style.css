@@ -732,6 +732,7 @@ h2 {
   .choco4 {
     grid-column: 1;
     grid-row: 3;
+    object-fit: cover;
 
   }
 
