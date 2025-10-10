@@ -668,7 +668,7 @@ h2 {
   }
 
   .beat4 {
-    grid-column: 5;
+    grid-column: 3/5;
     grid-row: 4;
 
   }
@@ -680,7 +680,7 @@ h2 {
   }
 
     .beat6 {
-    grid-column: 3;
+    grid-column: 3/5;
     grid-row: 3;
 
   }
