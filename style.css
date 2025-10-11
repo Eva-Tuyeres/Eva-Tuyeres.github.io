@@ -592,31 +592,31 @@ h2 {
 
 
 @media (min-width: 1040px) {
-  .beat1 {
+  .happy1 {
     grid-column: 3/5;
     grid-row: 1;
 
   }
 
-  .beat2 {
+  .happy2 {
     grid-column: 3;
     grid-row: 2;
 
   }
 
-  .beat3 {
+  .happy3 {
     grid-column: 4;
     grid-row: 2;
 
   }
 
-  .beat4 {
+  .happy4 {
     grid-column: 3/5;
     grid-row: 4;
 
   }
 
-  .beat5 {
+  .happy5 {
     grid-column: 1/3;
     grid-row: 3;
 
