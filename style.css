@@ -633,6 +633,14 @@ h2 {
   }
 }
 
+.grid7 img {
+  width: 100%;
+  height: auto;
+  max-height: 500px; /* ajuste selon ta préférence */
+  object-fit: cover;
+  display: block;
+}
+
 .grid8 {
   display: grid;
   /* grid-template-columns: repeat(5, 1fr); */
