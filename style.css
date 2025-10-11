@@ -435,6 +435,16 @@ h2 {
     grid-row: 2;
 
   }
+  .hap5 {
+    grid-column: 3;
+    grid-row: 3;
+
+  }
+  .hap5 {
+    grid-column: 1;
+    grid-row: 3;
+
+  }
 
 
   .haptxt {
