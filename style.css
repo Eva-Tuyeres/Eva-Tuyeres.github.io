@@ -576,6 +576,12 @@ h2 {
   max-width: 1500px;
   margin: auto;
 }
+.grid7 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
 
 
 @media (min-width:640px) {
