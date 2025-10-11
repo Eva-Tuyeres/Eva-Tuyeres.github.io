@@ -321,6 +321,7 @@ h2 {
    .frag4 {
     grid-column: 1;
     grid-row: 3;
+    object-fit: cover;
 
   }
    .frag5 {
@@ -330,8 +331,8 @@ h2 {
 
   }
    .frag6 {
-    grid-column: 1;
-    grid-row: 4;
+    grid-column: 3;
+    grid-row: 3;
 
   }
   .fragtxt {
