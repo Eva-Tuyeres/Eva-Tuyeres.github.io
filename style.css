@@ -420,12 +420,12 @@ h2 {
 
   .hap2 {
     grid-column: 5;
-    grid-row: 2;
+    grid-row: 1;
 
   }
 
   .hap3 {
-    grid-column: 4;
+    grid-column: 5;
     grid-row: 2;
 
   }
