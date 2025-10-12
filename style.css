@@ -1031,14 +1031,18 @@ h2 {
   .bar7 {
     grid-column: 4;
     grid-row: 4; 
-
+    width: 150px;   /* largeur souhaitée */
+    height: auto;
+    margin-top: 100px; 
   }
 
 
   .bar8 {
     grid-column: 3;
     grid-row: 4;
-
+    width: 150px;   /* largeur souhaitée */
+    height: auto;
+    margin-top: 100px; 
   }
 
   .bar9 {
@@ -1046,6 +1050,7 @@ h2 {
     grid-row: 4;
     width: 150px;   /* largeur souhaitée */
     height: auto;
+    margin-top: 100px; 
   }
 
   .bartxt {
