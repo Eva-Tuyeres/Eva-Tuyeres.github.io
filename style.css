@@ -1034,6 +1034,7 @@ h2 {
     width: 150px;   /* largeur souhaitée */
     height: auto;
     margin-top: 100px; 
+    object-position: left;
   }
 
 
@@ -1043,6 +1044,7 @@ h2 {
     width: 150px;   /* largeur souhaitée */
     height: auto;
     margin-top: 100px; 
+    object-position: left;
   }
 
   .bar9 {
@@ -1051,6 +1053,7 @@ h2 {
     width: 150px;   /* largeur souhaitée */
     height: auto;
     margin-top: 100px; 
+    object-position: left;
   }
 
   .bartxt {
