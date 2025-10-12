@@ -1044,7 +1044,8 @@ h2 {
   .bar9 {
     grid-column: 5;
     grid-row: 4;
-
+    width: 150px;   /* largeur souhaitée */
+    height: auto;
   }
 
   .bartxt {
