@@ -444,7 +444,7 @@ h2 {
   .hap3 {
     grid-column: 5;
     grid-row: 1;
-    margin-top: 380px;
+    margin-top: 370px;
   }
 
   .hap4 {
@@ -466,7 +466,7 @@ h2 {
 
 
   .haptxt {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 1;
     margin-top: 380px;
   }
