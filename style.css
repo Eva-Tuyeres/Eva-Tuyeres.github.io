@@ -563,7 +563,8 @@ h2 {
 
   .log4 {
     grid-column: 3;
-    grid-row: 3;  
+    grid-row: 3; 
+    margin-top: 20px;
   }
 
   .log5 {
