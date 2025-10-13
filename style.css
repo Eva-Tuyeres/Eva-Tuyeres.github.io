@@ -1220,4 +1220,66 @@ h2 {
 
 
 
+.grid13 {
+  display: grid;
+  /* grid-template-columns: repeat(5, 1fr); */
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  max-width: 1500px;
+  margin: auto;
+}
+
+
+@media (min-width:640px) {
+  .grid13 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1040px) {
+  .grid13 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+
+@media (min-width: 1040px) {
+
+  .jou1 {
+    grid-column: 2;
+    grid-row: 1;
+
+  }
+
+  .jou2 {
+    grid-column: 3;
+    grid-row: 1;
+
+  }
+
+  .jou3 {
+    grid-column: 4;
+    grid-row: 1;
+
+  }
+
+  .jou4 {
+    grid-column: 1/4;
+    grid-row: 2;
+
+  }
+
+  .jou5 {
+    grid-column: 4/6;
+    grid-row: 3;
+
+  }
+
+  .joutxt {
+    grid-column: 4;
+    grid-row: 2;
+
+
+  }
+}
 
