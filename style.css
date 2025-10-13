@@ -1285,15 +1285,15 @@ h2 {
 
   }
   .broderie8 {
-    grid-column: 1;
-    grid-row: 5;
+    grid-column: 3;
+    grid-row: 3;
 
   }
 
   .broderietxt {
     grid-column: 4;
-    grid-row: 2;
-
+    grid-row: 1;
+    margin-top: 300px; 
 
   }
 }
