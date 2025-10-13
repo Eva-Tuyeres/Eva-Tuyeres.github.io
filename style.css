@@ -237,6 +237,11 @@ h3{
     grid-row: 5;
     
   }
+  .treize {
+    grid-column: 1;
+    grid-row: 1;
+    
+  }
 }
 
 .grid a:hover img {
