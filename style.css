@@ -1260,7 +1260,7 @@ h2 {
   .broderie3 {
     grid-column: 4;
     grid-row: 1;
-    margin-top: 450px;
+    margin-top: 550px;
   
   }
 
@@ -1294,7 +1294,7 @@ h2 {
   .broderietxt {
     grid-column: 4;
     grid-row: 1;
-    margin-top: 350px; 
+    margin-top: 370px; 
 
   }
 }
