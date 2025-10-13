@@ -232,6 +232,11 @@ h3{
     grid-row: 1;
     
   }
+  .douze {
+    grid-column: 5;
+    grid-row: 5;
+    
+  }
 }
 
 .grid a:hover img {
