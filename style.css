@@ -1265,7 +1265,7 @@ h2 {
 
   .broderie4 {
     grid-column: 3;
-    grid-row: 2;
+    grid-row: 4;
 
   }
 
@@ -1276,17 +1276,17 @@ h2 {
   }
   .broderie6 {
     grid-column: 3;
-    grid-row: 4;
+    grid-row: 5;
 
   }
   .broderie7 {
     grid-column: 2;
-    grid-row: 4;
+    grid-row: 5;
 
   }
   .broderie8 {
     grid-column: 5;
-    grid-row: 4;
+    grid-row: 5;
 
   }
 
