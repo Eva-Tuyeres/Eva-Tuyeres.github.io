@@ -1245,37 +1245,37 @@ h2 {
 
 @media (min-width: 1040px) {
 
-  .jou1 {
+  .broderie1 {
     grid-column: 2;
     grid-row: 1;
 
   }
 
-  .jou2 {
+  .broderie2 {
     grid-column: 3;
     grid-row: 1;
 
   }
 
-  .jou3 {
+  .broderie3 {
     grid-column: 4;
     grid-row: 1;
 
   }
 
-  .jou4 {
+  .broderie4 {
     grid-column: 1/4;
     grid-row: 2;
 
   }
 
-  .jou5 {
+  .broderie5 {
     grid-column: 4/6;
     grid-row: 3;
 
   }
 
-  .joutxt {
+  .broderietxt {
     grid-column: 4;
     grid-row: 2;
 
