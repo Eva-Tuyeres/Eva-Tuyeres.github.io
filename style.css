@@ -1181,16 +1181,13 @@ h2 {
     grid-row: 1;
     
   }
-
-
-
+  
   .vaisselles3 {
     grid-column: 5;
     grid-row: 1;
    
   }
-
-
+  
   .vaisselles4 {
      grid-column: 2;
      grid-row: 2;
@@ -1208,13 +1205,9 @@ h2 {
 
   }
 
-  .vaisselles7 {
-    grid-column: 4;
-    grid-row: 4; 
-    
-  }
+ 
 
-  .bartxt {
+  .vaisellesxt {
     grid-column: 4;
     grid-row: 3;
     
