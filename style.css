@@ -1172,44 +1172,44 @@ h2 {
 @media (min-width: 1040px) {
   
   .vaisselles1 {
-    grid-column: 1/3;
-    grid-row: 3;
+    grid-column: 2/4;
+    grid-row: 1;
     
   }
   .vaisselles2 {
-    grid-column: 1;
-    grid-row: 1;
+    grid-column: 1/3;
+    grid-row: 2;
     
   }
   
   .vaisselles3 {
     grid-column: 5;
-    grid-row: 1;
+    grid-row: 3;
    
   }
   
   .vaisselles4 {
-     grid-column: 2;
-     grid-row: 2;
+     grid-column: 4;
+     grid-row: 3;
        
       } 
 
   .vaisselles5{
-    grid-column: 3;
-    grid-row: 1;  
+    grid-column: 2;
+    grid-row: 4;  
   }
 
   .vaisselles6 {
-    grid-column: 4;
-    grid-row: 2;
+    grid-column: 3;
+    grid-row: 4;
 
   }
 
  
 
   .vaisellesxt {
-    grid-column: 4;
-    grid-row: 3;
+    grid-column: 5;
+    grid-row: 1;
     
   }
 }
