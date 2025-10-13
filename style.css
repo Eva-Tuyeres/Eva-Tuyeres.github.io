@@ -1437,7 +1437,12 @@ h2 {
     grid-row: 1;
 
   }
-  .parcividéo {
+  .parcivideo {
+    grid-column: 4;
+    grid-row: 1;
+
+  }
+  .parcitxt {
     grid-column: 4;
     grid-row: 1;
 
