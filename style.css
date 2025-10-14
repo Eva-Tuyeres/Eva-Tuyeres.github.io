@@ -1379,18 +1379,19 @@ h2 {
   .parci9 {
     grid-column: 5;
     grid-row: 1;
-    margin-top: 100px;
+    
 
   }
   .parci10 {
     grid-column: 5;
     grid-row: 1;
-    margin-top: 250px;
+    margin-top: 1500px;
 
   }
   .parci11 {
     grid-column: 5;
     grid-row: 3;
+    margin-top: 300px;
 
   }
   .parci12 {
