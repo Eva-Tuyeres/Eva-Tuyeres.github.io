@@ -1338,7 +1338,7 @@ h2 {
 
   .parci2 {
     grid-column: 4/6;
-    grid-row: 1;
+    grid-row: 3;
 
   }
 
@@ -1378,12 +1378,14 @@ h2 {
 
   .parci9 {
     grid-column: 5;
-    grid-row: 2;
+    grid-row: 1;
+    margin-top: 100px;
 
   }
   .parci10 {
     grid-column: 5;
     grid-row: 1;
+     margin-top: 250px;
 
   }
   .parci11 {
