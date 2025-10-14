@@ -1443,7 +1443,11 @@ h2 {
   .parcivideo {
     grid-column: 1;
     grid-row: 2;
-    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;      /* empile verticalement */
+    justify-content: flex-start; /* colle les enfants en haut */
+    align-items: stretch;        /* optionnel : étire horizontalement */
+    gap: 8px;                    /* optionnel : espacement */
 
   }
   .parcitxt {
