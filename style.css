@@ -1363,6 +1363,15 @@ h2 {
   .parci6 {
     grid-column: 5;
     grid-row: 3;
+    display: flex;              /* active Flexbox */
+    justify-content: center;    /* centre horizontalement */
+    align-items: flex-end;      /* colle en bas verticalement */
+}
+
+ .parci6 img {
+  width: 50%;  /* ou ce que tu veux */
+  height: auto;
+ }
 
   }
   .parci7 {
