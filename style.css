@@ -1454,6 +1454,9 @@ h2 {
   .parcivideo {
     grid-column: 1;
     grid-row: 6;
+    display: flex;              /* active Flexbox */
+    justify-content: center;    /* centre horizontalement */
+    align-items: flex-end;      /* colle en bas verticalement */
 
   }
   .parcitxt {
