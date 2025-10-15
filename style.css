@@ -1343,7 +1343,7 @@ h2 {
   }
 
   .parci3 {
-    grid-column: 4/5;
+    grid-column: 4/6;
     grid-row: 2;
     
   
@@ -1392,7 +1392,7 @@ h2 {
   .parci11 {
     grid-column: 5;
     grid-row: 1;
-    margin-top:520px;
+    margin-top:550px;
     
 
   }
@@ -1443,7 +1443,7 @@ h2 {
 
   }
   .parcivideo {
-    grid-column: 5;
+    grid-column: 4;
     grid-row: 3;
 
   }
