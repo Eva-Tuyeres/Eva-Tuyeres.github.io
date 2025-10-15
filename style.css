@@ -1331,7 +1331,7 @@ h2 {
 @media (min-width: 1040px) {
 
   .parci1 {
-    grid-column: 2;
+    grid-column: 2/3;
     grid-row: 6;
 
   }
@@ -1395,7 +1395,7 @@ h2 {
   .parci10 {
     grid-column: 5;
     grid-row: 1;
-    margin-top: 160px;
+    margin-top: 170px;
 
   }
   .parci11 {
