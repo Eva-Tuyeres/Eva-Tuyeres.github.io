@@ -1369,7 +1369,7 @@ h2 {
 }
 
  .parci6 img {
-  width: 50%;  /* ou ce que tu veux */
+  width: 100%;  /* ou ce que tu veux */
   height: auto;
  }
 
@@ -1395,7 +1395,7 @@ h2 {
   .parci10 {
     grid-column: 5;
     grid-row: 1;
-    margin-top: 200px;
+    margin-top: 170px;
 
   }
   .parci11 {
