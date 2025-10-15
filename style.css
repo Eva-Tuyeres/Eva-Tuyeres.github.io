@@ -1332,7 +1332,7 @@ h2 {
 
   .parci1 {
     grid-column: 2/3;
-    grid-row: 6;
+    grid-row: 5;
 
   }
 
@@ -1453,7 +1453,7 @@ h2 {
   
   .parcivideo {
     grid-column: 1;
-    grid-row: 6;
+    grid-row: 5;
     display: flex;              /* active Flexbox */
     justify-content: center;    /* centre horizontalement */
     align-items: flex-end;      /* colle en bas verticalement */
