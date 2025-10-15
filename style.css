@@ -1395,7 +1395,7 @@ h2 {
   .parci10 {
     grid-column: 5;
     grid-row: 1;
-    margin-top: 195px;
+    margin-top: 193px;
 
   }
   .parci11 {
@@ -1457,7 +1457,11 @@ h2 {
     display: flex;              /* active Flexbox */
     justify-content: center;    /* centre horizontalement */
     align-items: flex-end;      /* colle en bas verticalement */
-
+  }
+  .parcivedeo mp4 {
+    width: 100%;  /* ou ce que tu veux */
+    height: auto;
+ 
   }
   .parcitxt {
     grid-column: 3;
