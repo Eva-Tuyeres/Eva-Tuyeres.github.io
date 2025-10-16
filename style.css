@@ -1431,7 +1431,7 @@ h2 {
 
   }
   .parci17 {
-    grid-column: 4;
+    grid-column: 4/6;
     grid-row: 5;
 
   }
