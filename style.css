@@ -1483,7 +1483,7 @@ h2 {
   }
 }
 
-.grid3 {
+.grid15 {
   display: grid;
   /* grid-template-columns: repeat(5, 1fr); */
   grid-gap: 10px;
@@ -1494,13 +1494,13 @@ h2 {
 
 
 @media (min-width:640px) {
-  .grid3 {
+  .grid15 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 1040px) {
-  .grid3 {
+  .grid15 {
     grid-template-columns: repeat(5, 1fr);
   }
 }
