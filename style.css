@@ -242,6 +242,11 @@ h3{
     grid-row: 1;
     
   }
+  .quatorze {
+    grid-column: 2;
+    grid-row: 1;
+    
+  }
 }
 
 .grid a:hover img {
