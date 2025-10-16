@@ -1439,6 +1439,9 @@ h2 {
   .parci18 {
     grid-column: 4/6;
     grid-row: 6;
+    display: flex;              /* active Flexbox */
+    justify-content: center;    /* centre horizontalement */
+    align-items: flex-top;      /* colle en bas verticalement */
     
 
   }
