@@ -1564,7 +1564,7 @@ h2 {
     grid-row: 6;
   }
   .memo11 {
-    grid-column: 4;
+    grid-column: 4/6;
     grid-row: 6;
   }
   .memo12 {
