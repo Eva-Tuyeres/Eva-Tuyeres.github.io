@@ -1555,8 +1555,11 @@ h2 {
     grid-row: 3;
   }
   .memo9 {
-    grid-column: 1;
-    grid-row: 4;
+    grid-column: 4;
+    grid-row: 3;
+    display: flex;              /* active Flexbox */
+    justify-content: center;    /* centre horizontalement */
+    align-items: flex-top;
   }
   .memo10 {
     grid-column: 2;
