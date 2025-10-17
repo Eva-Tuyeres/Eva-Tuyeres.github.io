@@ -1547,7 +1547,7 @@ h2 {
     grid-row: 3;
     display: flex;              /* active Flexbox */
     justify-content: center;    /* centre horizontalement */
-    align-items: flex-bottom;
+    align-items: flex-end;
   }
 
   .memo8 {
