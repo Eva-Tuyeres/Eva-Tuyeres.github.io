@@ -1543,7 +1543,7 @@ h2 {
   }
   
   .memo7 {
-    grid-column: 3;
+    grid-column: 4;
     grid-row: 3;
     display: flex;              /* active Flexbox */
     justify-content: center;    /* centre horizontalement */
