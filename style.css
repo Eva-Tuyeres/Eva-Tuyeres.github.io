@@ -173,8 +173,8 @@ h3{
   }
 
   .deux {
-    grid-column: 3/ 6;
-    grid-row: 2 / 3;
+    grid-column: 1/4;
+    grid-row: 7;
 
   }
 
