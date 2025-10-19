@@ -249,9 +249,7 @@ h3{
   .quatorze {
     grid-column: 5;
     grid-row: 4;
-    display: flex;              /* active Flexbox */
-    justify-content: center;    /* centre horizontalement */
-    align-items: flex-top;      /* colle en bas verticalement */
+   
   
   }
 }
