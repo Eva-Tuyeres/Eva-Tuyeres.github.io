@@ -207,7 +207,7 @@ h3{
   .sept {
     grid-column: 4/6;
     grid-row: 6;
-    margin-top: 300px;
+    
 
   }
 
@@ -233,7 +233,7 @@ h3{
     
   }
   .douze {
-    grid-column: 5;
+    grid-column: 4;
     grid-row: 5;
     
   }
