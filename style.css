@@ -205,8 +205,8 @@ h3{
   }
 
   .sept {
-    grid-column: 2/4;
-    grid-row: 4;
+    grid-column: 4/6;
+    grid-row: 6;
     margin-top: 300px;
 
   }
