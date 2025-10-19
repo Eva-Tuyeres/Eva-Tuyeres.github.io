@@ -229,6 +229,7 @@ h3{
   .dix {
     grid-column: 1;
     grid-row: 2;
+    object-fit: cover;
     
   }
   .onze {
