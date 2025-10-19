@@ -180,8 +180,11 @@ h3{
   }
 
   .trois {
-    grid-column: 4;
-    grid-row: 3;
+    grid-column: 3;
+    grid-row: 2;
+    display: flex;              /* active Flexbox */
+    justify-content: center;    /* centre horizontalement */
+    align-items: flex-end;      /* colle en bas verticalement */
   
   }
 
