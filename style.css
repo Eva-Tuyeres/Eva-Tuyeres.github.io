@@ -306,7 +306,7 @@ h2 {
 .marquee {
   display: inline-block;
   white-space: nowrap;
-  animation: defilement 20s linear infinite;
+  animation: defilement 10s linear infinite;
 }
 
 @keyframes defilement {
