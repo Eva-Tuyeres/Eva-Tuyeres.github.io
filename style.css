@@ -982,7 +982,7 @@ h2 {
   }
    .ph21 {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 4;
 
   }
    .ph22 {
@@ -991,7 +991,7 @@ h2 {
 
   }
    .ph23 {
-    grid-column: 4;
+    grid-column: 5;
     grid-row: 2;
   }
    .ph24 {
