@@ -297,10 +297,11 @@ h2 {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: white;  /* ou la couleur de ton fond */
   overflow: hidden;         /* cache le texte quand il sort de l’écran */
   padding: 5px 0;
   z-index: 10;              /* pour qu’il passe au-dessus du contenu */
+  color: rgb(49, 39, 131);
+  font-family: "Aileron Regular",sans-serif;
 }
 
 .marquee {
