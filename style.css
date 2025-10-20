@@ -296,7 +296,7 @@ h2 {
   position: fixed;          /* reste collé en bas */
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 100vw; 
   overflow: hidden;         /* cache le texte quand il sort de l’écran */
   padding: 5px 0;
   z-index: 10;              /* pour qu’il passe au-dessus du contenu */
