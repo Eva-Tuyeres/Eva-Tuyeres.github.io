@@ -137,9 +137,9 @@ h3{
   text-decoration: none;    /* enlève le soulignement */
   transition: opacity 0.2s ease;
 }
-.cv a:hover {
-  opacity: 50%;
-
+.cv:hover {
+  opacity: 0.5;             /* 0.5 = 50% transparent */
+  cursor: pointer;          /* montre que c’est cliquable */
 }
 
 .grid {
