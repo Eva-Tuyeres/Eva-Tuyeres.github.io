@@ -935,7 +935,23 @@ h2 {
    .ph23 {
     grid-column: 1;
     grid-row: 2;
-
+  }
+   .ph24 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+   .ph25 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+   .ph26 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+   .ph27 {
+    grid-column: 4;
+    grid-row: 2;
+  }
 
 }
 
