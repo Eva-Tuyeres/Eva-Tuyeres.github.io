@@ -9,21 +9,22 @@
     /* Grid des photos */
     .grid10 {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 10px;
-      max-width: 1200px;
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+      max-width: 1500px;
       margin: auto;
     }
 
-    .grid10 img {
-      width: 100%;
-      display: block;
-      cursor: pointer;
-      transition: transform 0.2s ease;
+    @media (min-width:640px) {
+      .grid10 {
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
 
-    .grid10 img:hover {
-      transform: scale(1.03);
+    @media (min-width: 1040px) {
+      .grid10 {
+        grid-template-columns: repeat(5, 1fr);
+      }
     }
 
     /* Lightbox CSS-only */
@@ -64,6 +65,18 @@
     .lightbox .close:hover {
       color: #ddd;
     }
+
+    /* Optionnel : effet hover sur les images */
+    .grid10 img {
+      width: 100%;
+      display: block;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .grid10 img:hover {
+      transform: scale(1.03);
+    }
   </style>
 </head>
 <body>
@@ -78,7 +91,8 @@
 </header>
 
 <div class="grid10">
-  <!-- Exemple pour les 37 images -->
+
+  <!-- Exemple pour toutes tes images -->
   <div class="ph1"><a href="#img1"><img src="photo/ph1noir.jpg" alt="photo1"></a></div>
   <div class="ph2"><a href="#img2"><img src="photo/ph2noir.jpg" alt="photo2"></a></div>
   <div class="ph3"><a href="#img3"><img src="photo/ph3noir.jpg" alt="photo3"></a></div>
@@ -113,9 +127,24 @@
   <div class="ph35"><a href="#img35"><img src="photo/paysage1.JPG" alt="photo35"></a></div>
   <div class="ph36"><a href="#img36"><img src="photo/paysage2.JPG" alt="photo36"></a></div>
   <div class="ph37"><a href="#img37"><img src="photo/paysage3.JPG" alt="photo37"></a></div>
+
 </div>
 
-<!-- Lightboxes -->
+<!-- Footer -->
+<footer class="footer">
+  <div>
+    <p>eva0810@outlook.fr</p>
+  </div>
+  <nav class="insta">
+    <div>
+      <p>
+        <a href="https://www.instagram.com/eva.t_art/">instagram</a>
+      </p>
+    </div>
+  </nav>
+</footer>
+
+<!-- Lightboxes CSS-only -->
 <div id="img1" class="lightbox"><a href="#" class="close">&times;</a><img src="photo/ph1noir.jpg" alt="photo1"></div>
 <div id="img2" class="lightbox"><a href="#" class="close">&times;</a><img src="photo/ph2noir.jpg" alt="photo2"></div>
 <div id="img3" class="lightbox"><a href="#" class="close">&times;</a><img src="photo/ph3noir.jpg" alt="photo3"></div>
@@ -146,6 +175,10 @@
 <div id="img31" class="lightbox"><a href="#" class="close">&times;</a><img src="photo/fete.JPG" alt="photo31"></div>
 <div id="img32" class="lightbox"><a href="#" class="close">&times;</a><img src="photo/vache1.jpg" alt="photo32"></div>
 <div id="img33" class="lightbox"><a href="#" class="close">&times;</a><img src="photo/vache2.JPG" alt="photo33"></div>
-<div id="img34" class="lightbox"><a href="#" class="close">&times;</a><img src="
+<div id="img34" class="lightbox"><a href="#" class="close">&times;</a><img src="photo/balais.jpg" alt="photo34"></div>
+<div id="img35" class="lightbox"><a href="#" class="close">&times;</a><img src="photo/paysage1.JPG" alt="photo35"></div>
+<div id="img36" class="lightbox"><a href="#" class="close">&times;</a><img src="photo/paysage2.JPG" alt="photo36"></div>
+<div id="img37" class="lightbox"><a href="#" class="close">&times;</a><img src="photo/paysage3.JPG" alt="photo37"></div>
 
-
+</body>
+</html>
