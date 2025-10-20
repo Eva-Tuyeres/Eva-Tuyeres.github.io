@@ -134,7 +134,7 @@ h3{
 .cv-section {
   grid-column: 1 / -1;         /* occupe toute la largeur */
   display: block;              /* plus simple et plus sûr que flex ici */
-  margin-top: 20px;            /* espace au-dessus du CV */
+  margin-top:0px;            /* espace au-dessus du CV */
   text-align: left;            /* aligne le texte à gauche */
 }
 
