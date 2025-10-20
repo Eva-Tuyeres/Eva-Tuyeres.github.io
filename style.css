@@ -133,9 +133,9 @@ h3{
 }
 
 .cv {
-  text-decoration: none;
-  font-family:'Cooper Hewitt', sans-serif; 
-  color: rgb(49, 39, 131);
+  color: inherit;           /* garde la même couleur que le titre */
+  text-decoration: none;    /* enlève le soulignement */
+  transition: opacity 0.3s; /* animation fluide */
 }
 .cv a:hover {
   opacity: 50%;
