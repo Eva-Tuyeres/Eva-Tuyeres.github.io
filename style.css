@@ -977,8 +977,8 @@ h2 {
 
   }
 
-  .ph20 {
-    grid-column: 1;
+  .ph29 {
+    grid-column: 4/6;
     grid-row: 17;
 
   }
