@@ -906,7 +906,7 @@ h2 {
   }
 
   .ph7 {
-    grid-column: 1;
+    grid-column: 1/3;
     grid-row: 19;
 
   }
