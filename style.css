@@ -907,18 +907,18 @@ h2 {
 
   .ph7 {
     grid-column: 4/6;
-    grid-row: 7;
+    grid-row: 18;
 
   }
   .ph8 {
     grid-column: 4;
-    grid-row: 10;
+    grid-row: 18;
 
   }
 
   .ph9 {
     grid-column: 3;
-    grid-row: 10;
+    grid-row: 18;
 
   }
 
