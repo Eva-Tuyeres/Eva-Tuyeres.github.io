@@ -886,8 +886,7 @@ h2 {
   .ph14 {
     grid-column:2;
     grid-row: 12;
-    margin-top:60px;
-
+    
   }
   .ph15 {
     grid-column:1/3;
@@ -933,7 +932,7 @@ h2 {
 
   }
    .ph23 {
-    grid-column: 4/6;
+    grid-column: 4;
     grid-row: 2;
   }
    .ph24 {
