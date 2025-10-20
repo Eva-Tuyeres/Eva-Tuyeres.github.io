@@ -137,6 +137,10 @@ h3{
   flex-direction: column;    /* empile le contenu verticalement */
   align-items: flex-start;   /* aligne à gauche, ou 'center' si tu veux centrer */
 }
+.cv-section a.cv {
+  margin-top: 10px;          /* petit espace sous le h2 */
+  align-self: center;        /* centre le lien */
+}
 
 .cv {
   color: inherit;           /* garde la même couleur que le titre */
