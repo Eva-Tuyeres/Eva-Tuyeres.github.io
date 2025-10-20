@@ -672,9 +672,17 @@ h2 {
     grid-column: 4/6;
     grid-row: 1;
     margin-top: 170px;
-
-
   }
+
+.link-name {
+  text-decoration: none; 
+  transition: opacity 0.2s ease;
+}
+
+.link-name:hover {
+  opacity: 0.6;               /* effet au survol */
+  cursor: pointer;
+}
 
   .logtxt2 {
     grid-column: 1/;
