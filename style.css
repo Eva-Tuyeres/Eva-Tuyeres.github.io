@@ -299,7 +299,6 @@ h2 {
   left: 0;
   width: 100vw;                  /* couvre toute la largeur de l'écran */
   box-sizing: border-box;
-  background-color: #fefefe;     /* adapte à ton fond — tu peux mettre transparent */
   overflow: hidden;
   padding: 8px 0;
   z-index: 999;
