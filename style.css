@@ -124,32 +124,30 @@ h3{
 
 .info {
   display: grid;
-  /* grid-template-columns: repeat(3, 1fr); */
   grid-gap: 30px;
   grid-auto-rows: minmax(100px, auto);
   max-width: 1000px;
-  margin: auto;
-  margin-top: 30px;
-}
-.cv-section {
-  grid-column: 1 / -1;      /* occupe toute la largeur de la grille */
-  display: flex;             /* pour aligner verticalement */
-  flex-direction: column;    /* empile le contenu verticalement */
-  align-items: flex-start;   /* aligne à gauche, ou 'center' si tu veux centrer */
-}
-.cv-section a.cv {
-  margin-top: 10px;          /* petit espace sous le h2 */
-  align-self: center;        /* centre le lien */
+  margin: 30px auto 0 auto;
 }
 
+/* SECTION CV : force le bloc à s’afficher sous About */
+.cv-section {
+  grid-column: 1 / -1;         /* occupe toute la largeur */
+  display: block;              /* plus simple et plus sûr que flex ici */
+  margin-top: 20px;            /* espace au-dessus du CV */
+  text-align: left;            /* aligne le texte à gauche */
+}
+
+/* Style du lien CV */
 .cv {
-  color: inherit;           /* garde la même couleur que le titre */
-  text-decoration: none;    /* enlève le soulignement */
+  color: inherit;              /* garde la couleur du titre */
+  text-decoration: none;       /* enlève le soulignement */
   transition: opacity 0.2s ease;
 }
+
 .cv:hover {
-  opacity: 0.5;             /* 0.5 = 50% transparent */
-  cursor: pointer;          /* montre que c’est cliquable */
+  opacity: 0.5;                /* effet au survol */
+  cursor: pointer;
 }
 
 .grid {
