@@ -135,7 +135,7 @@ h3{
 .cv {
   color: inherit;           /* garde la même couleur que le titre */
   text-decoration: none;    /* enlève le soulignement */
-  transition: opacity 0.3s; /* animation fluide */
+  transition: opacity 0.2s ease;
 }
 .cv a:hover {
   opacity: 50%;
