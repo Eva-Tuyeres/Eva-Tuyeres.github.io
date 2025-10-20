@@ -669,7 +669,7 @@ h2 {
 
 
   .logtxt1 {
-    grid-column: 4;
+    grid-column: 4/6;
     grid-row: 1;
     margin-top: 170px;
 
@@ -677,7 +677,7 @@ h2 {
   }
 
   .logtxt2 {
-    grid-column: 1;
+    grid-column: 1/;
     grid-row: 3;
 
   }
