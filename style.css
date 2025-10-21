@@ -868,11 +868,11 @@ h2 {
   width: 100%;
   display: block;
   cursor: pointer;
-  transition: transform 0.2s ease;
+  transition: opacity 0.2s ease;
 }
 
 .grid10 img:hover {
-  transform: scale(1.03); /* petit effet au survol */
+  transform:opacity: 0.5;
 }
 
 
