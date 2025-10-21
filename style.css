@@ -1819,22 +1819,22 @@ h2 {
 
   .macro1 {
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 5;
   }
 
   .macro2 {
     grid-column: 3;
-    grid-row: 1;
+    grid-row: 3;
   }
 
   .macro3 {
     grid-column: 4;
-    grid-row: 1;
+    grid-row: 3;
    }
 
    .macro4 {
-    grid-column: 1/4;
-    grid-row: 2;
+    grid-column: 1;
+    grid-row: 4;
 
    }
    .macro5 {
