@@ -1828,8 +1828,8 @@ h2 {
   }
 
   .macro3 {
-    grid-column: 4;
-    grid-row: 3;
+    grid-column: 2/4;
+    grid-row: 2;
    }
 
    .macro4 {
@@ -1852,7 +1852,7 @@ h2 {
     grid-row: 2;
   }
    .macrotxt {
-    grid-column: 4;
+    grid-column: 1;
     grid-row: 2;
 
   }
