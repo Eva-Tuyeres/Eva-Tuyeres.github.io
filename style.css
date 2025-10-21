@@ -1825,7 +1825,7 @@ h2 {
   .macro2 {
     grid-column: 4;
     grid-row: 2;
-    margin-top:150px;
+    margin-top:200px;
   }
 
   .macro3 {
@@ -1834,8 +1834,8 @@ h2 {
    }
 
    .macro4 {
-    grid-column: 5;
-    grid-row: 4;
+    grid-column: 4;
+    grid-row: 3;
 
    }
    .macro5 {
@@ -1844,18 +1844,18 @@ h2 {
 
    }
    .macro6 {
-    grid-column: 2;
+    grid-column: 3;
     grid-row: 1;
    }
   
   .macro7 {
     grid-column: 2;
-    grid-row: 4;
+    grid-row: 3;
   }
    .macrotxt {
     grid-column: 1;
-    grid-row: 1;
-    margin-top:100px;
+    grid-row: 2;
+   
    }
 }
 
