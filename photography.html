@@ -1,1 +1,198 @@
-<!DOCTYPE html> <html lang="fr"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Photography</title> <link rel="stylesheet" href="style.css"> </head> <body> <header class="header"> <h1><a href="index.html">Eva Tuyeres</a></h1> <nav class="nav"> <a href="index.html">Work</a> <a href="photography.html">Photography</a> <a href="about.html">About</a> </nav> </header> <div class="grid10"> <div class="ph1"><a href="#img1"><img src="photo/ph1noir.jpg" alt="photo1"></a></div> <div class="ph2"><a href="#img2"><img src="photo/ph2noir.jpg" alt="photo2"></a></div> <div class="ph3"><a href="#img3"><img src="photo/ph3noir.jpg" alt="photo3"></a></div> <div class="ph4"><a href="#img4"><img src="photo/ph4serievielle.jpg" alt="photo4"></a></div> <div class="ph5"><a href="#img5"><img src="photo/ph5serievielle.jpg" alt="photo5"></a></div> <div class="ph6"><a href="#img6"><img src="photo/ph6serievielle.jpg" alt="photo6"></a></div> <div class="ph7"><a href="#img7"><img src="photo/ph7bateau.jpg" alt="photo7"></a></div> <div class="ph8"><a href="#img8"><img src="photo/ph8arbitrre.jpg" alt="photo8"></a></div> <div class="ph9"><a href="#img9"><img src="photo/ph9arbitrre.jpg" alt="photo9"></a></div> <div class="ph10"><a href="#img10"><img src="photo/ph10manege.jpg" alt="photo10"></a></div> <div class="ph11"><a href="#img11"><img src="photo/ph11manege.jpg" alt="photo11"></a></div> <div class="ph12"><a href="#img12"><img src="photo/ph12romain.jpg" alt="photo12"></a></div> <div class="ph13"><a href="#img13"><img src="photo/ph13romain.jpg" alt="photo13"></a></div> <div class="ph15"><a href="#img15"><img src="photo/ph15bar.jpg" alt="photo15"></a></div> <div class="ph16"><a href="#img16"><img src="photo/ph16basket.jpg" alt="photo16"></a></div> <div class="ph17"><a href="#img17"><img src="photo/ph17basket.jpg" alt="photo17"></a></div> <div class="ph18"><a href="#img18"><img src="photo/ph18basket.jpg" alt="photo18"></a></div> <div class="ph21"><a href="#img21"><img src="photo/Velo1.JPG" alt="photo21"></a></div> <div class="ph22"><a href="#img22"><img src="photo/Velo2.JPG" alt="photo22"></a></div> <div class="ph23"><a href="#img23"><img src="photo/Crane.JPG" alt="photo23"></a></div> <div class="ph24"><a href="#img24"><img src="photo/Ping1.jpg" alt="photo24"></a></div> <div class="ph25"><a href="#img25"><img src="photo/Ping2.jpg" alt="photo25"></a></div> <div class="ph26"><a href="#img26"><img src="photo/Ping3.jpg" alt="photo26"></a></div> <div class="ph27"><a href="#img27"><img src="photo/Ping4.jpg" alt="photo27"></a></div> <div class="ph28"><a href="#img28"><img src="photo/jumelles.jpg" alt="photo28"></a></div> <div class="ph29"><a href="#img29"><img src="photo/pied.jpg" alt="photo29"></a></div> <div class="ph30"><a href="#img30"><img src="photo/serre.jpg" alt="photo30"></a></div> <div class="ph31"><a href="#img31"><img src="photo/fete.JPG" alt="photo31"></a></div> <div class="ph32"><a href="#img32"><img src="photo/vache1.jpg" alt="photo32"></a></div> <div class="ph33"><a href="#img33"><img src="photo/vache2.JPG" alt="photo33"></a></div> <div class="ph34"><a href="#img34"><img src="photo/balais.jpg" alt="photo34"></a></div> <div class="ph35"><a href="#img35"><img src="photo/paysage1.JPG" alt="photo35"></a></div> <div class="ph36"><a href="#img36"><img src="photo/paysage2.JPG" alt="photo36"></a></div> <div class="ph37"><a href="#img37"><img src="photo/paysage3.JPG" alt="photo37"></a></div> </div> <!-- Lightboxes --> <div id="img1" class="lightbox"> <a href="#" class="close">&times;</a> <a href="#img37" class="prev">&#10094;</a> <img src="photo/ph1noir.jpg" alt="photo1"> <a href="#img2" class="next">&#10095;</a> </div> <div id="img2" class="lightbox"> <a href="#" class="close">&times;</a> <a href="#img1" class="prev">&#10094;</a> <img src="photo/ph2noir.jpg" alt="photo2"> <a href="#img3" class="next">&#10095;</a> </div> <!-- … même schéma pour chaque image … --> <div id="img37" class="lightbox"> <a href="#" class="close">&times;</a> <a href="#img36" class="prev">&#10094;</a> <img src="photo/paysage3.JPG" alt="photo37"> <a href="#img1" class="next">&#10095;</a> </div> <footer class="footer"> <p>eva0810@outlook.fr</p> <nav class="insta"> <a href="https://www.instagram.com/eva.t_art/">instagram</a> </nav> </footer> </body> </html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Grid des photos */
+    .grid10 {
+      display: grid;
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+      max-width: 1500px;
+      margin: auto;
+    }
+
+    @media (min-width:640px) {
+      .grid10 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1040px) {
+      .grid10 {
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
+
+    /* Lightbox CSS */
+    .lightbox {
+      display: none;
+      position: fixed;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      background: rgba(0,0,0,0.85);
+      justify-content:center;
+      align-items:center;
+      z-index:1000;
+    }
+
+    .lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      border-radius: 4px;
+    }
+
+    .lightbox .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 40px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .lightbox .close:hover { color: #ddd; }
+
+    .lightbox .prev,
+    .lightbox .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 3rem;
+      color: white;
+      text-decoration: none;
+      padding: 0 20px;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .lightbox .prev { left: 10px; }
+    .lightbox .next { right: 10px; }
+    .lightbox .prev:hover,
+    .lightbox .next:hover { color: #ddd; }
+
+    /* Effet hover sur les images */
+    .grid10 img {
+      width: 100%;
+      display: block;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .grid10 img:hover { transform: scale(1.03); }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <h1><a href="index.html">Eva Tuyeres</a></h1>
+  <nav class="nav">
+    <a href="index.html">Work</a>
+    <a href="photography.html">Photography</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<!-- Grid des images -->
+<div class="grid10">
+  <div class="ph1"><img src="photo/ph1noir.jpg" alt="photo1" class="gallery"></div>
+  <div class="ph2"><img src="photo/ph2noir.jpg" alt="photo2" class="gallery"></div>
+  <div class="ph3"><img src="photo/ph3noir.jpg" alt="photo3" class="gallery"></div>
+  <div class="ph4"><img src="photo/ph4serievielle.jpg" alt="photo4" class="gallery"></div>
+  <div class="ph5"><img src="photo/ph5serievielle.jpg" alt="photo5" class="gallery"></div>
+  <div class="ph6"><img src="photo/ph6serievielle.jpg" alt="photo6" class="gallery"></div>
+  <div class="ph7"><img src="photo/ph7bateau.jpg" alt="photo7" class="gallery"></div>
+  <div class="ph8"><img src="photo/ph8arbitrre.jpg" alt="photo8" class="gallery"></div>
+  <div class="ph9"><img src="photo/ph9arbitrre.jpg" alt="photo9" class="gallery"></div>
+  <div class="ph10"><img src="photo/ph10manege.jpg" alt="photo10" class="gallery"></div>
+  <div class="ph11"><img src="photo/ph11manege.jpg" alt="photo11" class="gallery"></div>
+  <div class="ph12"><img src="photo/ph12romain.jpg" alt="photo12" class="gallery"></div>
+  <div class="ph13"><img src="photo/ph13romain.jpg" alt="photo13" class="gallery"></div>
+  <div class="ph15"><img src="photo/ph15bar.jpg" alt="photo15" class="gallery"></div>
+  <div class="ph16"><img src="photo/ph16basket.jpg" alt="photo16" class="gallery"></div>
+  <div class="ph17"><img src="photo/ph17basket.jpg" alt="photo17" class="gallery"></div>
+  <div class="ph18"><img src="photo/ph18basket.jpg" alt="photo18" class="gallery"></div>
+  <div class="ph21"><img src="photo/Velo1.JPG" alt="photo21" class="gallery"></div>
+  <div class="ph22"><img src="photo/Velo2.JPG" alt="photo22" class="gallery"></div>
+  <div class="ph23"><img src="photo/Crane.JPG" alt="photo23" class="gallery"></div>
+  <div class="ph24"><img src="photo/Ping1.jpg" alt="photo24" class="gallery"></div>
+  <div class="ph25"><img src="photo/Ping2.jpg" alt="photo25" class="gallery"></div>
+  <div class="ph26"><img src="photo/Ping3.jpg" alt="photo26" class="gallery"></div>
+  <div class="ph27"><img src="photo/Ping4.jpg" alt="photo27" class="gallery"></div>
+  <div class="ph28"><img src="photo/jumelles.jpg" alt="photo28" class="gallery"></div>
+  <div class="ph29"><img src="photo/pied.jpg" alt="photo29" class="gallery"></div>
+  <div class="ph30"><img src="photo/serre.jpg" alt="photo30" class="gallery"></div>
+  <div class="ph31"><img src="photo/fete.JPG" alt="photo31" class="gallery"></div>
+  <div class="ph32"><img src="photo/vache1.jpg" alt="photo32" class="gallery"></div>
+  <div class="ph33"><img src="photo/vache2.JPG" alt="photo33" class="gallery"></div>
+  <div class="ph34"><img src="photo/balais.jpg" alt="photo34" class="gallery"></div>
+  <div class="ph35"><img src="photo/paysage1.JPG" alt="photo35" class="gallery"></div>
+  <div class="ph36"><img src="photo/paysage2.JPG" alt="photo36" class="gallery"></div>
+  <div class="ph37"><img src="photo/paysage3.JPG" alt="photo37" class="gallery"></div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div><p>eva0810@outlook.fr</p></div>
+  <nav class="insta">
+    <div><p><a href="https://www.instagram.com/eva.t_art/">instagram</a></p></div>
+  </nav>
+</footer>
+
+<!-- Lightbox unique -->
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <span class="prev">&#10094;</span>
+  <img class="lightbox-img" src="" alt="">
+  <span class="next">&#10095;</span>
+</div>
+
+<!-- JS -->
+<script>
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.querySelector('.lightbox-img');
+  const closeBtn = document.querySelector('.close');
+  const prevBtn = document.querySelector('.prev');
+  const nextBtn = document.querySelector('.next');
+  const images = document.querySelectorAll('.gallery');
+  let currentIndex = 0;
+
+  images.forEach((img, index) => {
+    img.addEventListener('click', () => {
+      lightbox.style.display = 'flex';
+      lightboxImg.src = img.src;
+      currentIndex = index;
+    });
+  });
+
+  closeBtn.addEventListener('click', () => lightbox.style.display = 'none');
+  prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    lightboxImg.src = images[currentIndex].src;
+  });
+  nextBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % images.length;
+    lightboxImg.src = images[currentIndex].src;
+  });
+  lightbox.addEventListener('click', (e) => {
+    if(e.target === lightbox) lightbox.style.display = 'none';
+  });
+  document.addEventListener('keydown', (e) => {
+    if(lightbox.style.display === 'flex'){
+      if(e.key === 'ArrowRight') nextBtn.click();
+      if(e.key === 'ArrowLeft') prevBtn.click();
+      if(e.key === 'Escape') closeBtn.click();
+    }
+  });
+</script>
+
+</body>
+</html>
