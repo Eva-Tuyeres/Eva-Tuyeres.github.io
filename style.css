@@ -1779,5 +1779,30 @@ h2 {
 .lightbox .next:hover {
   color: #ddd;
 }
+/* Lightbox CSS (à ajouter après ton bloc existant) */
+.lightbox .prev,
+.lightbox .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;          /* taille des flèches */
+  color: white;             /* couleur des flèches */
+  text-decoration: none;
+  padding: 0 20px;
+  user-select: none;        /* empêche la sélection au clic */
+  cursor: pointer;
+}
 
+.lightbox .prev {
+  left: 10px;               /* position à gauche */
+}
+
+.lightbox .next {
+  right: 10px;              /* position à droite */
+}
+
+.lightbox .prev:hover,
+.lightbox .next:hover {
+  color: #ddd;              /* couleur au survol */
+}
 
