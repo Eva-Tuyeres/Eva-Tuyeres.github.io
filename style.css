@@ -1838,18 +1838,18 @@ h2 {
 
    }
    .macro5 {
-    grid-column: 2;
-    grid-row: 3;
+    grid-column: 4/6;
+    grid-row: 1;
 
    }
    .macro6 {
-    grid-column: 4/6;
-    grid-row: 4;
+    grid-column: 2;
+    grid-row: 1;
    }
   
   .macro7 {
-    grid-column: 1;
-    grid-row: 4;
+    grid-column: 3;
+    grid-row: 2;
   }
    .macrotxt {
     grid-column: 4;
