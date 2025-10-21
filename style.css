@@ -1755,4 +1755,29 @@ h2 {
 .lightbox .close:hover {
   color: #ddd;
 }
+.lightbox .prev,
+.lightbox .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+  user-select: none;
+}
+
+.lightbox .prev {
+  left: 10px;
+}
+
+.lightbox .next {
+  right: 10px;
+}
+
+.lightbox .prev:hover,
+.lightbox .next:hover {
+  color: #ddd;
+}
+
 
